@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pharmacydb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+store:
+  storeNo: 200
+  storeName: apollo pharamacy
+  storeManager: Tatamotors
+  openHours: 9
+  openMinutes: 30
+  closingHours: 11
+  closingMinutes: 30
+  location: "Ameerpet, Hyderabad"  
